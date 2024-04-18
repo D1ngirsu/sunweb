@@ -1,0 +1,32 @@
+/* CSS cho phiên bản điện thoại */
+
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* CSS cho phiên bản màn hình lớn */
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    img {
+        max-width: 600px;
+        height: auto;
+    }
+}
